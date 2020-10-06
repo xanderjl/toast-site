@@ -114,14 +114,7 @@ const Index = () => {
       <div className="page-content">
         <div className="hero">
           <h1>
-            Hello,{" "}
-            <a
-              href="https://toast.dev/"
-              style={{ textDecoration: "underline" }}
-            >
-              Toast
-            </a>
-            .
+            Hello, <a href="https://toast.dev/">Toast</a>.
           </h1>
           <ul className="socials">
             <li>
