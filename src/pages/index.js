@@ -34,7 +34,7 @@ const Index = () => {
               font-size: 3rem;
             }
             a {
-              text-decoration: none !important;
+              text-decoration: none;
             }
 
             .page {
