@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@sector/breadbox": "^0.0.4",
+    "serve": "^11.3.2",
+    "toast": "^0.3.6"
+  },
+  "scripts": {
+    "build": "toast incremental .",
+    "serve": "serve public",
+    "postinstall": "breadbox --dest public/web_module"
+  },
+  "type": "module"
+}
